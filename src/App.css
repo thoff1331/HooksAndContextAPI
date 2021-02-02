@@ -1,4 +1,6 @@
-body {
+.true {
+  background-color: black;
+  color: white;
   height: 100vh;
   width: 100vw;
   display: flex;
@@ -7,28 +9,14 @@ body {
   flex-direction: column;
 }
 
-
-.true {
-background-color: black;
-color: white;
-height: 100vh;
-width: 100vw;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-
-}
-
 .false {
-background-color: rgb(250, 250, 250);
-height: 100vh;
-width: 100vw;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-
+  background-color: rgb(250, 248, 248);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .element-container {
@@ -36,5 +24,4 @@ flex-direction: column;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  align-items: ;
 }

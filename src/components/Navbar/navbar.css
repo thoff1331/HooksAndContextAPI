@@ -1,0 +1,10 @@
+.navbar-container {
+  background-color: red;
+  color: rgb(37, 15, 15);
+  font-size: 15px;
+  height: 20vh;
+  width: 100vw;
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-evenly;
+}
